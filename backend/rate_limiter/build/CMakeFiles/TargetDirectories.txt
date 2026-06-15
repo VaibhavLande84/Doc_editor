@@ -1,0 +1,3 @@
+/usr/src/rate_limiter/build/CMakeFiles/rate_limiter.dir
+/usr/src/rate_limiter/build/CMakeFiles/edit_cache.dir
+/usr/src/rate_limiter/build/CMakeFiles/rebuild_cache.dir
