@@ -1,24 +1,20 @@
-#ifndef USER_H
-#define USER_H
+#ifndef DOC_H
+#define DOC_H
 
 #include <drogon/drogon.h>
-#include <vector>
-#include <string>
 #include <functional>
+#include <string>
 
-class Documenr{
-private:
+struct Document {
     int id;
     int user_id;
     std::string title;
-    std::string summary;
-public:
+    std::string content_summary;
+};
 
-    void getDocumentsByUserId(int doc_ID,int User_ID,
-                              std::function<void(const std::vector<Document>&)> onSuccess,
-                              std::function<void(const std::string&)> onError);
-    
-    void getUserDetails(int doc_ID,int User_ID);
-}
+void getSpecificDocument(int doc_ID,
+                         int user_ID,
+                         std::function<void(const Document &)> onSuccess,
+                         std::function<void(const std::string &)> onError);
 
 #endif

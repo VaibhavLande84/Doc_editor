@@ -2,16 +2,11 @@
 #define USER_H
 
 #include <drogon/drogon.h>
-#include <vector>
-#include <string>
 #include <functional>
+#include <string>
+#include <vector>
 
-struct Document {
-    int id;
-    int user_id;
-    std::string title;
-    std::string content_summary;
-};
+#include "doc.h"
 
 class User {
 private:
