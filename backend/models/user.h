@@ -1,7 +1,6 @@
 #ifndef USER_H
 #define USER_H
 
-#include <drogon/drogon.h>
 #include <functional>
 #include <string>
 #include <vector>

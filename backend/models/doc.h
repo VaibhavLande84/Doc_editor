@@ -1,7 +1,6 @@
 #ifndef DOC_H
 #define DOC_H
 
-#include <drogon/drogon.h>
 #include <functional>
 #include <string>
 
